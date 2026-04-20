@@ -108,12 +108,18 @@
         <tr><td>Scan history &amp; favorites</td><td>Allowing you to review past scans and saved wines</td></tr>
         <tr><td>Purchase receipt</td><td>Subscription validation and premium feature access</td></tr>
         <tr><td>Language settings</td><td>Localized AI-generated content</td></tr>
+        <tr><td>Advertising Identifier (IDFA)</td><td>Personalized advertising via Google AdMob — only if you grant tracking permission in the iOS App Tracking Transparency prompt. Free users only; Premium subscribers never have IDFA collected.</td></tr>
     </table>
 
     <h2>3. Third-Party Services</h2>
 
     <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.1 Google AdMob</h3>
-    <p>For free (non-premium) users, we display advertisements through Google AdMob. Google may collect and use data for ad personalization in accordance with <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. Premium subscribers do not see ads, and no ad-related data is collected for them.</p>
+    <p>For free (non-premium) users, we display advertisements through Google AdMob. On first launch we ask two permissions, in this order:</p>
+    <ul>
+        <li><strong>EU / UK / Switzerland consent (UMP)</strong> — users in the European Economic Area, UK, and Switzerland see Google's consent form for GDPR compliance before any ad is loaded.</li>
+        <li><strong>App Tracking Transparency (ATT)</strong> — a system prompt asking whether WineSommelier may use your device's Advertising Identifier (IDFA) to personalize ads. If you decline, ads still work but are non-personalized.</li>
+    </ul>
+    <p>Google's handling of advertising data is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob data disclosure</a>. Premium subscribers do not see ads, and no ad-related data (including IDFA) is collected for them.</p>
 
     <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.2 Apple Services</h3>
     <p>We use Apple's Sign in with Apple and StoreKit frameworks. Apple's handling of your data is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
@@ -137,7 +143,7 @@
     <ul>
         <li><strong>Delete your account:</strong> You can delete your account and all associated data from within the App (Profile &rarr; Delete Account).</li>
         <li><strong>Manage favorites &amp; history:</strong> You can remove individual favorites at any time.</li>
-        <li><strong>Ad personalization:</strong> You can limit ad tracking via your device's Settings &rarr; Privacy &rarr; Tracking.</li>
+        <li><strong>Ad personalization:</strong> You can revoke or change your tracking permission at any time via iOS <em>Settings &rarr; Privacy &amp; Security &rarr; Tracking &rarr; WineSommelier</em>. Disabling tracking switches ads to non-personalized mode; it does not remove ads entirely (upgrade to Premium to remove ads).</li>
         <li><strong>Sign in with Apple:</strong> You can stop using your Apple ID with the App via Settings &rarr; Apple ID &rarr; Sign-In &amp; Security &rarr; Sign in with Apple.</li>
     </ul>
 
