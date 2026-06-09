@@ -66,9 +66,9 @@
 <div class="container">
 
     <h1>Privacy Policy</h1>
-    <p class="effective-date">Effective Date: May 17, 2026</p>
+    <p class="effective-date">Effective Date: June 9, 2026</p>
 
-    <p><strong>Nikita Zolotarenko</strong> ("we", "us", or "our") operates the <strong>WineSommelier</strong> mobile application (the "App"). This Privacy Policy explains what information we collect, how we use it, and your choices regarding your data.</p>
+    <p><strong>Nikita Zolotarenko</strong> ("we", "us", or "our") operates the <strong>WineSommelier</strong> mobile application (the "App"). This Privacy Policy explains what information we collect, how we use it, and your choices regarding your data. We process your data only as described in this Privacy Policy.</p>
 
     <h2>1. Information We Collect</h2>
 
@@ -94,10 +94,21 @@
     <p>We store your scan history (wines you've scanned) and favorites (wines you've saved) on our servers, linked to your account.</p>
 
     <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">1.5 Purchase Information</h3>
-    <p>If you subscribe to WineSommelier Premium, Apple processes the payment. We receive a purchase receipt to validate your subscription status. We do not have access to your payment card details.</p>
+    <p>If you subscribe to WineSommelier Premium, Apple processes the payment. We use <strong>Adapty</strong> to manage subscriptions and validate purchases; Adapty receives your purchase receipt and device/user identifiers to determine your subscription status. We do not have access to your payment card details.</p>
 
     <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">1.6 Device &amp; Language Information</h3>
     <p>We collect your device's preferred language settings to deliver localized content (AI-generated notes, recommendations). We do not collect device model, OS version, or other hardware identifiers beyond the vendor ID.</p>
+
+    <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">1.7 Advertising &amp; Attribution Information</h3>
+    <p>For free (non-premium) users, we and our partners process advertising and attribution data to deliver and measure ads:</p>
+    <ul>
+        <li><strong>Advertising Identifier (IDFA):</strong> collected only if you grant permission via the iOS App Tracking Transparency prompt. Free users only; Premium subscribers never have IDFA collected.</li>
+        <li><strong>Install &amp; in-app event data:</strong> events such as app install and subscription are processed by <strong>AppsFlyer</strong> to attribute which advertising campaign led to your install and to detect fraud.</li>
+        <li><strong>Ad-measurement data:</strong> attribution and ad-interaction data is shared with <strong>Meta (Facebook)</strong> to measure the performance of our advertising campaigns.</li>
+    </ul>
+
+    <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">1.8 Connection &amp; Technical Information</h3>
+    <p>When the App connects to our servers and to third-party services (Google AdMob, AppsFlyer, Meta), your device's <strong>IP address</strong> and connection information are automatically received. This is used for approximate (city/country-level) location, security and fraud prevention, ad delivery, and advertising attribution.</p>
 
     <h2>2. How We Use Your Information</h2>
     <table>
@@ -106,10 +117,13 @@
         <tr><td>Photos</td><td>AI-powered wine and food recognition</td></tr>
         <tr><td>Taste preferences</td><td>Personalized wine recommendations and taste match scores</td></tr>
         <tr><td>Scan history &amp; favorites</td><td>Allowing you to review past scans and saved wines</td></tr>
-        <tr><td>Purchase receipt</td><td>Subscription validation and premium feature access</td></tr>
+        <tr><td>Purchase receipt</td><td>Subscription validation and premium feature access (Apple, Adapty)</td></tr>
         <tr><td>Language settings</td><td>Localized AI-generated content</td></tr>
         <tr><td>Advertising Identifier (IDFA)</td><td>Personalized advertising via Google AdMob — only if you grant tracking permission in the iOS App Tracking Transparency prompt. Free users only; Premium subscribers never have IDFA collected.</td></tr>
+        <tr><td>Install &amp; in-app event data</td><td>Advertising attribution and measurement (AppsFlyer, Meta) — free users only</td></tr>
+        <tr><td>IP address / connection info</td><td>Approximate location, security and fraud prevention, ad delivery, and attribution</td></tr>
     </table>
+    <p>We process your data only for the purposes described above and as set out in this Privacy Policy.</p>
 
     <h2>3. Third-Party Services</h2>
 
@@ -124,6 +138,15 @@
     <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.2 Apple Services</h3>
     <p>We use Apple's Sign in with Apple and StoreKit frameworks. Apple's handling of your data is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
 
+    <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.3 AppsFlyer</h3>
+    <p>We use AppsFlyer for mobile attribution and marketing analytics. AppsFlyer processes your device identifiers (including IDFA where permitted), IP address, and install and in-app event data to determine which advertising campaign led to your app install and to detect advertising fraud. AppsFlyer's handling of data is governed by <a href="https://www.appsflyer.com/legal/services-privacy-policy/" target="_blank">AppsFlyer's Services Privacy Policy</a>.</p>
+
+    <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.4 Meta Platforms (Facebook)</h3>
+    <p>We advertise WineSommelier through Meta (Facebook). To measure the performance of these campaigns, advertising and attribution data — such as ad interactions, advertising/device identifiers, and IP address — is shared with Meta through our attribution partner. Meta's handling of data is governed by <a href="https://www.facebook.com/privacy/policy/" target="_blank">Meta's Privacy Policy</a>.</p>
+
+    <h3 style="font-size:17px; margin:16px 0 8px; color:#4A0E1E;">3.5 Adapty</h3>
+    <p>We use Adapty to manage and validate in-app subscriptions. Adapty receives your purchase receipt and device/user identifiers to determine your subscription status. Adapty's handling of data is governed by <a href="https://adapty.io/privacy/" target="_blank">Adapty's Privacy Policy</a>.</p>
+
     <h2>4. Data Storage &amp; Security</h2>
     <ul>
         <li>Authentication tokens are stored securely in the iOS Keychain (hardware-encrypted).</li>
@@ -132,14 +155,18 @@
         <li>Server-side data is stored in secure, access-controlled databases.</li>
     </ul>
 
-    <h2>5. Data Retention</h2>
+    <h2>5. International Data Transfers</h2>
+    <p>We use service providers (including Google AdMob, AppsFlyer, Meta, Adapty, and Apple) that may process your data on servers located outside your country of residence, including in the United States. By using the App, you understand that your data may be transferred to and processed in jurisdictions whose data-protection laws may differ from those of your own. We rely on the privacy frameworks and safeguards of these providers for such transfers.</p>
+
+    <h2>6. Data Retention</h2>
     <ul>
         <li>Your account data, scan history, favorites, and taste preferences are retained as long as your account exists.</li>
+        <li>Photos you scan are stored on our servers to provide scan history for as long as your account exists, and are permanently deleted when you delete your account.</li>
         <li>When you delete your account, all associated data is permanently deleted from our servers.</li>
         <li>Logging out invalidates your session but retains data for Apple-linked accounts (so you can sign back in).</li>
     </ul>
 
-    <h2>6. Your Rights &amp; Choices</h2>
+    <h2>7. Your Rights &amp; Choices</h2>
     <ul>
         <li><strong>Delete your account:</strong> You can delete your account and all associated data from within the App (Profile &rarr; Delete Account).</li>
         <li><strong>Manage favorites &amp; history:</strong> You can remove individual favorites at any time.</li>
@@ -147,13 +174,13 @@
         <li><strong>Sign in with Apple:</strong> You can stop using your Apple ID with the App via Settings &rarr; Apple ID &rarr; Sign-In &amp; Security &rarr; Sign in with Apple.</li>
     </ul>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>8. Children's Privacy</h2>
     <p>WineSommelier is intended for users of legal drinking age in their jurisdiction. We do not knowingly collect personal information from children. If we learn that we have collected data from a child, we will promptly delete it.</p>
 
-    <h2>8. Changes to This Policy</h2>
+    <h2>9. Changes to This Policy</h2>
     <p>We may update this Privacy Policy from time to time. The updated version will be indicated by the "Effective Date" at the top. We encourage you to review this page periodically.</p>
 
-    <h2>9. Contact Us</h2>
+    <h2>10. Contact Us</h2>
     <div class="contact-box">
         <p><strong>Nikita Zolotarenko</strong></p>
         <p>Email: <a href="mailto:n.zolotarenko@mornhouse.com">n.zolotarenko@mornhouse.com</a></p>
